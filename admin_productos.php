@@ -78,6 +78,8 @@ while ($row = $resultado->fetch_assoc()) {
     </select>
 
         <button type="submit">Guardar Producto</button>
+        
+        <button ><a style="text-decoration: none; color: white; "  href="admin_productos.php" class="boton">Cerrar fomulario</a></button>
     </form>
 </div>
 

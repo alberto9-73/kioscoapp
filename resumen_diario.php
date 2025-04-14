@@ -71,6 +71,7 @@ $ventasRealizadas = $stmtVentas->get_result()->fetch_assoc()['total'];
 </div>
 
 <h3>🧾 Detalle de Productos Vendidos</h3>
+
 <table>
     <tr>
         <th>Producto</th>
@@ -87,6 +88,7 @@ $ventasRealizadas = $stmtVentas->get_result()->fetch_assoc()['total'];
         </tr>
     <?php endforeach; ?>
 </table>
+
 <a href="admin_productos.php" class="boton">← Volver al Admintrador</a>
 <a href="index.php" class="boton">← Cerrar</a>
 </body>
